@@ -17,7 +17,7 @@
             <div class=text-center>
             <h3 class="card-title border-bottom border-3 p-2">各種入力</h3>
             <div class="card-text">
-                <p>複合仕訳入力</p>
+                <>複合仕訳入力</p>
                 <p>元帳入力</p>
                 <p>通帳入力</p>
             </div>
@@ -26,7 +26,7 @@
         </div>
         <div class="card mb-3">
             <div class="card-body">
-            <div class=text-center>
+            <div class="text-center">
             <h3 class="card-title border-bottom border-3 p-2">各種出力</h3>
             <div class="card-text">
                 <p>仕訳帳</p>
