@@ -2,12 +2,14 @@
 <div class="container">
 <h1 class="text-center">会計</h1>
 <div class="row row-cols-md-2 p-3">
-<div class="sample-link-area">
-    <h3 class="btn btn-primary btn-lg" href="/settlement.vue" role="button">年次決算</h3>
-</div>
-<div class="sample-link-area">
-    <button v-on:click>各種設定</button>
-</div>
+    <NuxtLink
+    to="./settlement"
+    class="btn btn-primary">年次決算
+    </NuxtLink>
+    <NuxtLink
+    to="./settings"
+    class="btn btn-primary">各種設定
+    </NuxtLink>
 </div>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
         <div class="card mb-3">
