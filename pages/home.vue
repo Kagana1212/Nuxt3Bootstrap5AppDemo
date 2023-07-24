@@ -1,6 +1,5 @@
 <template>
 <div class="container">
-<h1 class="text-center">会計</h1>
 <div class="row row-cols-md-2 p-3">
     <NuxtLink
     to="./settlement"
@@ -41,6 +40,7 @@
             </div>
             </div>
         </div>
+        <img src="/kaikei.jpg" class="rounded mx-auto d-block pt-4"  alt="...">
     </div>
 </div>
 </template>
