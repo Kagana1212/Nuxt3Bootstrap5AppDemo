@@ -1,6 +1,7 @@
 <template>
 <div class="container">
 <div class="row row-cols-md-2 p-3">
+
     <NuxtLink
     to="./settlement"
     class="btn btn-outline-danger">年次決算
@@ -42,7 +43,14 @@
         </div>
         <img src="/kaikei.jpg" class="rounded mx-auto d-block pt-4"  alt="...">
     </div>
+    <ul class="m-5">
+        <li>ユーザー名:{{ user.name }}</li>
+        <li>会社:{{ user.company }}</li>
+    </ul>
 </div>
 </template>
 
+<script setup>
+const user = ref(useLoginUser());
+</script>
 
